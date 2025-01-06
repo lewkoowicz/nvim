@@ -12,6 +12,9 @@ vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
 vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
 vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 
+vim.keymap.set('n', '<c-d>', '<c-d>zz', { noremap = true, silent = true })
+vim.keymap.set('n', '<c-u>', '<c-u>zz', { noremap = true, silent = true })
+
 vim.keymap.set('n', '<leader>cp', function()
     local path = vim.fn.expand('%:p')
     vim.fn.setreg('+', path)
