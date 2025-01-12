@@ -16,5 +16,7 @@ vim.opt.rtp:prepend(lazypath)
 
 local opts = {}
 
+vim.cmd("language en_US")
+
 require("vim-options")
 require("lazy").setup("plugins")
