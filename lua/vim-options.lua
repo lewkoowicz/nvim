@@ -20,3 +20,6 @@ vim.keymap.set('n', '<leader>cp', function()
     vim.fn.setreg('+', path)
     vim.notify('Copied path: ' .. path)
 end)
+
+vim.keymap.set('n', '<leader>co', ':CopilotChatOpen<CR>')
+vim.keymap.set('n', '<leader>cc', ':CopilotChatClose<CR>')
