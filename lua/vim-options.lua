@@ -23,3 +23,6 @@ end)
 
 vim.keymap.set('n', '<leader>co', ':CopilotChatOpen<CR>')
 vim.keymap.set('n', '<leader>cc', ':CopilotChatClose<CR>')
+
+vim.keymap.set('n', '<c-/>', 'gcc', { remap = true })
+vim.keymap.set('v', '<c-/>', 'gc', { remap = true })
