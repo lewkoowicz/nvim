@@ -5,10 +5,6 @@ return {
     { "nvim-lua/plenary.nvim", branch = "master" },
   },
   config = function()
-    require("CopilotChat").setup({
-      window = {
-        layout = "float"
-      }
-    })
+    require("CopilotChat").setup()
   end
 }
