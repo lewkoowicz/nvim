@@ -27,3 +27,7 @@ vim.keymap.set('n', '<leader>cc', ':CopilotChatClose<CR>')
 
 vim.keymap.set('n', '<c-/>', 'gcc', { remap = true })
 vim.keymap.set('v', '<c-/>', 'gc', { remap = true })
+
+vim.keymap.set('n', '<leader>w', ':bdelete<CR>', {})
+vim.keymap.set('n', '<leader>v', ':vsplit<CR>', { desc = 'Vertical split' })
+vim.keymap.set('n', '<leader>h', ':split<CR>', { desc = 'Horizontal split' })
