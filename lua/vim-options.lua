@@ -44,3 +44,5 @@ vim.keymap.set('n', '<leader>v', ':vsplit<CR>')
 vim.keymap.set('n', '<leader>h', ':split<CR>')
 
 vim.keymap.set('n', '<leader>n/', ':nohlsearch<CR>')
+
+vim.keymap.set('n', '<leader>gb', ':Git blame<CR>')
