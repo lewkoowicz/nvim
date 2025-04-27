@@ -46,5 +46,3 @@ vim.keymap.set('n', '<leader>h', ':split<CR>')
 vim.keymap.set('n', '<leader>n/', ':nohlsearch<CR>')
 
 vim.keymap.set('n', '<leader>gb', ':Git blame<CR>')
-
-vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float)
